@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class RoMeets {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		System.out.println("Application is running");
+		SpringApplication.run(RoMeets.class, args);
 	}
 
 }
