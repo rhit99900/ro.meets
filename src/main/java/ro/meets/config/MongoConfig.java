@@ -22,7 +22,7 @@ public class MongoConfig {
   private String connectionString;
 
   @Bean  
-  public MongoClient mongoClient() {
+  public MongoClient mongoClient() {    
     return MongoClients.create(connectionString);
   }
 
